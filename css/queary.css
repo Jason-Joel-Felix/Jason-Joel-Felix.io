@@ -1,0 +1,638 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  
+  
+}
+
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+ p{
+  font-size:1rem;
+ }
+ .heading-primary{
+ 
+  padding-top:0;
+ font-size:6rem}
+ .heading-secondry{
+  font-size:3rem;
+}
+.img{
+  height:15rem;
+   width:15rem;
+}
+#weapon-img{
+  width:80%;
+  height:100%;  
+  margin-top:2rem; }
+  .grid--3-cols{
+    grid-template-columns:repeat(2,1fr);  }
+    .icon ion-icon {
+      color:white;
+      font-size: 30px;
+    }
+#w2t{
+      height:25rem; 
+      width:25rem;
+      
+    }    
+    #calender{
+      height:15rem; 
+      width:30rem;
+    }    
+  /* .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  } */
+}
+
+/**************************/
+/* BELOW 1024px (Tablets) */
+/**************************/
+
+@media (max-width: 64em) {
+  #weapon-img {
+    width: 91%;
+    height: 100%;
+    margin-top: 2rem;
+}
+  #w2t{
+    height:20rem; 
+    width:20rem;
+    
+  }    
+  #calender{
+    height:12rem; 
+    width:25rem;
+  }   
+  #portfolio{
+    height:20rem; 
+    width:20rem;
+  } 
+
+}
+
+
+/**************************/
+/* BELOW 768px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 48em) {
+   /* 8px / 16px = 0.5 = 50% */
+  /* html {
+    font-size: 45%;
+  } */
+  .button{
+    width: 270px;
+        height: 57px;
+    font-size:20px;
+  }
+  #mailto{
+    text-align: center; 
+    font-size:20px;
+  }
+  p{
+    font-size:20px;
+  }
+  .heading-primary{
+    font-size:5rem;
+  }
+  
+  .heading-secondry{
+    font-size:4rem;
+  }
+  .heading-tertiary{
+    font-size:24px;
+  }
+  .grid--3-cols{
+    grid-template-columns:repeat(2,1fr);
+  }
+  .grid--2-cols{
+    grid-template-columns:repeat(1,1fr);
+  }
+  .grid--3-coars{
+    grid-template-columns:repeat(1,1fr);
+  }
+  .designs{
+    width: 43rem;
+    height:25rem;
+    /* z-index: -1; */
+    margin: auto;
+    
+   
+  }
+#weapon-img{
+    width:70%;
+    height:90%;  
+    margin-top:2rem; }
+.weapon-content{
+      padding: 0 0 0 2rem  ;
+     }
+
+.inner-text{
+  padding:10rem 0 10rem 0;
+}
+.img{
+  height: 10rem;
+   width:12rem;
+}  
+.inner-text{
+  padding: 0;
+}   
+.my-pictures{
+      position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+    width:50%;
+    margin-left:13rem;
+}
+.my-pictures::before,
+.my-pictures::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.weapons{
+  padding:0 2rem 0 2rem ;
+}
+
+.my-pictures::before {
+  width: 150%;
+  /* height: 60%; */
+
+  /* 60% of parent's width */
+  padding-bottom: 150%;
+opacity: 50%;
+  background-color: #000000;
+  z-index: -2;
+}
+
+#way2think:nth-child(2) {
+  grid-row: 1;
+}
+
+#concepts:nth-child(6) {
+  grid-row: 5;
+}
+
+#certificates:nth-child(10){
+  grid-row:9;
+}
+article{
+  padding-top: 32%;
+    padding-bottom: 11%;
+}
+
+}
+
+/**************************/
+/* BELOW 624px (Phones) */
+/**************************/
+
+@media (max-width: 39em) {
+  /* .grid {
+    row-gap: 1rem;
+  } */
+  .col-mn-nav{
+    display: grid;
+    column-gap: 1rem ;
+    row-gap: 4.8rem;
+   }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--3-coars
+   {
+    grid-template-columns:repeat(1, 1fr);
+  }
+  
+  .heading-primary{
+    font-size:3rem;
+  }
+  .heading-secondry{
+    font-size:2.5rem;
+  }
+  .heading-tertiary{
+    font-size: 1rem;
+  }
+  
+  .size-bar{
+  height:30px;
+  }
+  .progress div{
+    /* opacity: 90%; */
+    font-size:13.3px;
+   
+  }
+  
+  #weapon-img{
+    width:100%;
+    height:90%;  
+    margin-top:2rem; }
+    .my-pictures{
+      position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+    width:50%;
+    margin-left:10rem;
+}
+  .inner-text{
+    padding:0;
+  }
+  .Carousel{
+    align-items: center;
+  text-align:center;
+  justify-content: center;
+  /* $carousel-indicator-width:           30px; */
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* gap: 2rem; */
+    /* padding:0 0 8rem 0; */
+  }
+  .img{
+    height: 9rem;
+     width:9rem;
+  }
+  
+  .button{
+    width: 190px;
+        height: 35px;
+    font-size:14px;
+  }
+  #mailto{
+    text-align: center; 
+    font-size:14px;
+  }
+  p{
+    font-family:'Chakra Petch',sans-serif;
+  }
+  h1{
+    font-size:60px;
+  }
+  /* .grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  .weapon-content{
+    padding: 0 2rem 0 2rem  ;
+   }
+  .carousel-design{
+    height:15rem; width:30rem;
+  }
+  .designs{
+    width: 21rem;
+    height:15rem;
+    /* z-index: -1; */
+    margin: auto;
+    
+   
+  }
+  article{
+    padding-top: 16%;
+      padding-bottom: 11%;
+  }
+
+  .design{
+    margin:0 2rem 0 2rem ;
+    padding-bottom: 20rem;
+  }
+  .design-img{
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  #calender{
+    height:10rem; 
+    width:20rem;
+  }
+  #logo {
+    height: 7rem;
+    width: 16rem;
+}
+article{
+  padding-top: 58%;
+    padding-bottom: 11%;
+}
+}  
+
+/**************************/
+/* BELOW 375px (Phones) */
+/**************************/
+
+@media (max-width: 23.4375em) {
+  .grid--2-cols
+  {
+   grid-template-columns:repeat(1, 1fr);
+ }
+ .grid--3-cols{
+  grid-template-columns:repeat(1, 1fr);
+ }
+  .my-pictures{
+    position: relative;
+  
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+  
+  width:50%;
+  margin-left:6rem;
+  /* top: 50%;
+  left: 50%; */
+  
+  }
+  .designs {
+    width: 21rem;
+    height: 15rem;
+    /* z-index: -1; */
+    margin: auto;
+}
+
+  .inner-text{
+    padding:0;
+  }
+  article{
+    padding-top: 58%;
+      padding-bottom: 11%;
+  }
+}
+
+
+
+
+/**************************/
+/* BELOW 320px (Phones) */
+/**************************/
+
+@media (max-width: 20em) {
+  .img{
+    height: 5rem;
+     width:5rem;
+  }
+
+.heading-primary{
+  font-size:2.7rem;
+}
+.design{
+justify-content: center;
+}
+.heading-secondry{
+  font-size:2rem;
+}
+.heading-tertiary{
+  font-size:1.4rem;
+}
+.grid--2-cols{
+  grid-template-columns:repeat(1,1fr);
+}
+.weapon-content {
+  padding: 0 1rem 0 1rem;
+}
+/* jason */
+.my-pictures{
+  position: relative;
+
+align-items: center;
+text-align:center;
+justify-content: center;
+
+width:50%;
+margin-left:5rem;
+/* top: 50%;
+left: 50%; */
+
+}
+/* .my-pictures:nth-child(2){
+  grid-row:1 ;
+} */
+.inner-text{
+  padding-top:0 ;
+  padding-bottom: 0;
+  
+}
+/* work */
+
+.w-100 {
+  width: 50%!important;
+}
+.carousel-design{
+  /* margin:0 2rem 0 2rem ;
+  padding-bottom: 20rem; */
+  height:20rem;
+   width:10rem;
+}
+.work-img{
+  height:20rem; 
+  width:10rem;
+}
+
+.designs{
+  width: 15rem;
+  height:12rem;
+  /* z-index: -1; */
+  margin: auto;
+}
+.work-img{
+  width: 15rem;
+  height:12rem;
+}
+article{
+  padding-top: 71%;
+    padding-bottom: 11%;
+}
+
+
+/* uiux */
+.design-text{
+  text-align:center;
+}
+  #way2think:nth-child(2) {
+    grid-row: 1;
+  }
+  
+  #concepts:nth-child(6) {
+    grid-row: 5;
+  }
+  
+  #certificates:nth-child(10){
+    grid-row:9;
+  }
+  #calender{
+    height:9rem; 
+    width:17rem;
+  }
+  #certificate{
+    height:20rem; 
+    width:15rem;
+  }
+  #logo{
+    height:7rem; 
+    width:17rem;
+  }
+  #concept{
+    height:27rem; 
+    width:17rem;
+  }
+  #portfolio{
+    height:22rem; 
+    width:19rem;
+  }
+  #w2t{
+    height: 19rem; 
+    width:19rem;
+  }
+}
+
+
+
+/**************************/
+/* BELOW 280px (Phones) */
+/**************************/
+
+@media (max-width: 17.5em) {
+  /* .img{
+    height: 9rem;
+     width:9rem;
+  } */
+  p{
+    font-size:13.3px;
+  }
+  .heading-primary{
+    font-size:2.5rem;
+  }
+  .heading-secondry{
+     font-size:2rem;
+  }
+  .heading-h3{
+    font-size:1.2rem;
+   }
+   .inner-text{
+    padding:2rem 0 2rem 0;
+   }
+  .my-pictures{
+    position: relative;
+  /* display: flex; */
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+  /* border-radius: 50%; */
+  width:50%;
+  margin-left: 4.5rem;
+  /* top: 50%;
+  left: 50%; */
+}
+.img{
+  height: 4rem;
+   width:4rem;
+}
+/* .col-mn-nav{
+  display: grid;
+  column-gap: 1rem ;
+  row-gap: 4.8rem;
+ } */
+ /* .grid--3-coars{
+  grid-template-columns:repeat(1,1fr);
+}*/
+.grid--2-cols{
+  grid-template-columns:repeat(1,1fr);
+} 
+.weapon-content{
+  padding: 0 2rem 0 2rem  ;
+ }
+ .icon ion-icon {
+  color:white;
+  margin-top:1rem;
+  font-size: 20px;
+}
+.design{
+  /* padding:0 10rem 0 10rem; */
+  text-align:center;
+}
+.designs{
+  width: 10rem;
+  height:11rem;
+  /* z-index: -1; */
+  margin: auto;
+}
+.work-img{
+  width: 10rem;
+  height:11rem;
+}
+.grid{
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  justify-content: center;
+}
+article{
+  padding-top: 99%;
+    padding-bottom: 11%;
+}
+#w2t{
+  height: 17rem; 
+  width:17rem;
+}
+#concept{
+  height:23rem; 
+  width:16rem;
+}
+#portfolio{
+  height:15rem; 
+  width:15rem;
+}
+#calender{
+  height:8rem; 
+  width:14rem;
+}
+#logo{
+  height:5rem; 
+  width:12rem;
+}
+}
+
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
