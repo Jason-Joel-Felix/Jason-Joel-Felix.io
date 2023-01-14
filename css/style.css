@@ -207,7 +207,7 @@ h3{
 .my-pictures{
   position: relative;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
   border-radius: 50%;
 

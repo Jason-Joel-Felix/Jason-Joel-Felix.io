@@ -104,6 +104,26 @@
 
 }
 
+/**************************/
+/* BELOW 912px (Tablets) */
+/**************************/
+
+@media (max-width: 57em) {
+  .inner-text{
+    padding-top:3rem;
+  }
+}
+
+
+/**************************/
+/* BELOW 820px (Tablets) */
+/**************************/
+
+@media (max-width: 51.25em) {
+  .inner-text{
+    margin-top: -7rem;
+  }
+}
 
 /**************************/
 /* BELOW 768px (Smaller tablets) */
@@ -162,23 +182,27 @@
      }
 
 .inner-text{
-  padding:10rem 0 10rem 0;
+  /* padding:10rem 0 10rem 0;
+   */
+   text-align: center;
+   justify-content: center;
+}
+.bottom{
+  padding-top: 8rem;
 }
 .img{
   height: 10rem;
    width:12rem;
 }  
-.inner-text{
-  padding: 0;
-}   
+
 .my-pictures{
       position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     /* border-radius: 50%; */
-    width:50%;
-    margin-left:13rem;
+    width:40%;
+    margin-left:15rem;
 }
 .my-pictures::before,
 .my-pictures::after {
@@ -273,7 +297,7 @@ article{
     justify-content: center;
     /* border-radius: 50%; */
     width:50%;
-    margin-left:10rem;
+    margin-left:6rem;
 }
   .inner-text{
     padding:0;
@@ -355,11 +379,41 @@ article{
 }
 }  
 
+
+
+
+
+/**************************/
+/* BELOW 540px (Phones) */
+/**************************/
+@media(max-width: 33.75em){
+  .my-pictures{
+    position: relative;
+  
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+  
+  width:50%;
+  margin-left:8rem;
+  /* top: 50%;
+  left: 50%; */
+  
+  }
+  .inner-text{
+    padding-top:2rem;
+  }
+   .bottom{
+    padding-top:8rem;
+  }
+  
+}
+
 /**************************/
 /* BELOW 375px (Phones) */
 /**************************/
 
-@media (max-width: 23.4375em) {
+@media (max-width: 24em) {
   .grid--2-cols
   {
    grid-template-columns:repeat(1, 1fr);
@@ -396,8 +450,35 @@ article{
   }
 }
 
+/**************************/
+/* BELOW 412px (Phones) */
+/**************************/
+@media(max-width: 25.75em){
+  .my-pictures{
+    position: relative;
+  
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+  
+  width:50%;
+  margin-left:6rem;
+  /* top: 50%;
+  left: 50%; */
+  
+  }
+}
 
 
+/**************************/
+/* BELOW 360px (Phones) */
+/**************************/
+
+@media (max-width: 22.5em) {
+  .bottom{
+    padding-top:8rem;
+  }
+}
 
 /**************************/
 /* BELOW 320px (Phones) */
@@ -547,6 +628,9 @@ article{
    }
    .inner-text{
     padding:2rem 0 2rem 0;
+   }
+   .bottom{
+    padding-top:10rem;
    }
   .my-pictures{
     position: relative;
