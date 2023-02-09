@@ -1,6 +1,6 @@
 body{
   font-family: 'Chakra Petch', sans-serif;
-  background: linear-gradient(90deg, rgba(0,0,0,1),rgb(255, 255, 255,1)) ;
+  background: linear-gradient(90deg, rgb(255, 255, 255),rgba(0,0,0,1)) ;
 
 }
 .First{
