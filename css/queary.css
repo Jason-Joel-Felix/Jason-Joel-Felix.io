@@ -8,7 +8,30 @@
   
   
 }
+@keyframes glowing {
+  0% {
+    background: #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+  50% {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #ffffff;
+  }
+  100% {
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+}
+.text-but {
+  animation: glowing 1300ms infinite;
+}
+.text-but :hover
+{
+text-decoration:none;
+color:#000000;
+/* background:black; */
 
+}
 
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
