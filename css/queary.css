@@ -25,6 +25,9 @@
  .heading-secondry{
   font-size:3rem;
 }
+h3{
+  font-family: 'Chakra Petch', sans-serif;
+}
 .img{
   height:15rem;
    width:15rem;
@@ -92,7 +95,10 @@
     height:20rem; 
     width:20rem;
     
-  }    
+  }  
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
+  }  
   #calender{
     height:12rem; 
     width:25rem;
@@ -124,7 +130,9 @@
     margin-top: -7rem;
   }
 }
-
+h3{
+  font-family: 'Chakra Petch', sans-serif;
+}
 /**************************/
 /* BELOW 768px (Smaller tablets) */
 /**************************/
@@ -142,6 +150,9 @@
   #mailto{
     text-align: center; 
     font-size:20px;
+  }
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
   }
   p{
     font-size:20px;
@@ -266,7 +277,9 @@ article{
    {
     grid-template-columns:repeat(1, 1fr);
   }
-  
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
+  }
   .heading-primary{
     font-size:3rem;
   }
@@ -310,7 +323,8 @@ article{
   }
   .gallery {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    
     /* gap: 2rem; */
     /* padding:0 0 8rem 0; */
   }
@@ -334,6 +348,8 @@ article{
   h1{
     font-size:60px;
   }
+
+ 
   /* .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
   } */
@@ -400,6 +416,9 @@ article{
   left: 50%; */
   
   }
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
+  }
   .inner-text{
     padding-top:2rem;
   }
@@ -421,6 +440,9 @@ article{
  .grid--3-cols{
   grid-template-columns:repeat(1, 1fr);
  }
+ h3{
+  font-family: 'Chakra Petch', sans-serif;
+}
   .my-pictures{
     position: relative;
   
@@ -443,6 +465,9 @@ article{
 
   .inner-text{
     padding:0;
+  }
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
   }
   .bottom{
     padding-top: 9rem;
@@ -475,6 +500,9 @@ article{
   left: 50%; */
   
   }
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
+  }
 }
 
 
@@ -485,6 +513,9 @@ article{
 @media (max-width: 22.5em) {
   .bottom{
     padding-top:8rem;
+  }
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
   }
 }
 
@@ -500,6 +531,9 @@ article{
 
 .heading-primary{
   font-size:2.7rem;
+}
+h3{
+  font-family: 'Chakra Petch', sans-serif;
 }
 .design{
 justify-content: center;
@@ -625,6 +659,9 @@ article{
   p{
     font-size:13.3px;
   }
+  h3{
+    font-family: 'Chakra Petch', sans-serif;
+  }
   .heading-primary{
     font-size:2.5rem;
   }
@@ -633,6 +670,7 @@ article{
   }
   .heading-h3{
     font-size:1.2rem;
+    
    }
    .inner-text{
     padding:2rem 0 2rem 0;

@@ -99,6 +99,15 @@ h2{
   /* text-align: center;
   justify-content: center; */
 }
+h3{
+  font-family: 'Chakra Petch', sans-serif;
+}
+h4{text-align: center;
+  font-family: 'Chakra Petch', sans-serif;
+  padding:2rem 0 2rem 0;
+  font-size: 7.4em;
+  
+}
 section{
   margin-top:10rem;
 }
@@ -254,6 +263,20 @@ opacity: 50%;
   text-align:center;
   padding-bottom:10rem;
 }
+/*.circle-video-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}*/
 
 /* --------------------
       WEAPON OF CHOICES
@@ -284,7 +307,7 @@ opacity: 50%;
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   /* gap: 2rem; */
   padding:0 0 8rem 0;
 }
@@ -512,6 +535,8 @@ a:link, .link-half:hover{
 .design-text{
   display:block;
   padding:2rem;
+  position: center;
+  
 }
 
 /* --------------------
@@ -592,7 +617,7 @@ color:#000000;
 /*----------------------
         ui/ux
 ---------------------- */
-#calender{
+/*#calender{
   height:20rem; 
   width:40rem;
 }
@@ -607,7 +632,7 @@ color:#000000;
 #concept{
   height:30rem; 
   width:20rem;
-}
+}*/
 #portfolio{
   height:30rem; 
   width:30rem;
