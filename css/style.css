@@ -108,6 +108,9 @@ h4{text-align: center;
   font-size: 7.4em;
   
 }
+h5{
+  font-family: 'Chakra Petch', sans-serif;
+}
 section{
   margin-top:10rem;
 }
@@ -122,10 +125,10 @@ section{
   
 }
 
-.nav-style{
+/*.nav-style{
   background: linear-gradient(90deg,rgb(255, 255, 255,1),rgba(0,0,0,1)) ;
 
-}
+}*/
 .nav-content{
   font-family: 'Chakra petch', sans-serif;
   font-size:20px;
@@ -170,6 +173,13 @@ div .carousel-design {
   row-gap: 4.8rem;
   justify-content: center;
 }
+.grids{
+  display:grid;
+  column-gap: 1.8rem;
+  row-gap: 1.8rem;
+  justify-content: center;
+
+}
 .grid--pins {
   grid-template-columns: 1fr 1fr ;
 }
@@ -184,6 +194,10 @@ div .carousel-design {
 }
 .grid--3-coars{
   grid-template-columns: repeat(3, 1fr);
+}
+.grid--5-cols{
+  grid-template-columns: repeat(5, 1fr);
+
 }
 
 #weapon-img{
@@ -320,7 +334,7 @@ opacity: 50%;
   overflow: hidden;
 }
 
-.gallery-item img {
+.gallery-item video {
   display: block;
   width: 100%;
   transition: all 0.4s;
@@ -549,6 +563,12 @@ a:link, .link-half:hover{
  /* width:100%; */
   background-color: #202020;
 }
+.brands{
+  background-color:black;
+ 
+  position: center;
+  
+}
 .rights{
   height:35rem;
  /* width:100%; */
@@ -625,13 +645,13 @@ color:#000000;
   height:30rem; 
   width:20rem;
 }
-#logo{
-  height:10rem; 
-  width:25rem;
+*/#logo{
+  height:5rem; 
+  width:5rem;
 }
-#concept{
-  height:30rem; 
-  width:20rem;
+#logo2{
+  height:5rem; 
+  width:15rem;
 }*/
 #portfolio{
   height:30rem; 

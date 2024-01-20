@@ -1,4 +1,11 @@
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/ 
 
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
@@ -51,9 +58,16 @@ color:#000000;
 h3{
   font-family: 'Chakra Petch', sans-serif;
 }
+
 .img{
   height:15rem;
    width:15rem;
+}
+.gallery {
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+/* gap: 2rem; */
+padding:0 0 8rem 0;
 }
 #weapon-img{
   width:80%;
@@ -118,7 +132,16 @@ h3{
     height:20rem; 
     width:20rem;
     
-  }  
+  } 
+  a:video{
+    text-align: center;
+  }
+  .gallery {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 2rem; */
+  padding:0 0 8rem 0;
+  }
   h3{
     font-family: 'Chakra Petch', sans-serif;
   }  
@@ -141,6 +164,9 @@ h3{
   .inner-text{
     padding-top:3rem;
   }
+  .grid--5-cols{
+    grid-template-columns:repeat(3,1fr);
+  }
 }
 
 
@@ -152,10 +178,19 @@ h3{
   .inner-text{
     margin-top: -7rem;
   }
-}
+  .grid--5-cols{
+    grid-template-columns:repeat(2,1fr);
+  }
+  .grids{
+    display:grid;
+    column-gap: 1.8rem;
+    row-gap: 1.8rem;
+    justify-content: center;
+  
+  }
 h3{
   font-family: 'Chakra Petch', sans-serif;
-}
+}}
 /**************************/
 /* BELOW 768px (Smaller tablets) */
 /**************************/
@@ -190,8 +225,9 @@ h3{
   .heading-tertiary{
     font-size:24px;
   }
+  .grid--5-cols{grid-template-columns:repeat(2,1fr);}
   .grid--3-cols{
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(1,1fr);
   }
   .grid--2-cols{
     grid-template-columns:repeat(1,1fr);
@@ -294,6 +330,7 @@ article{
     column-gap: 1rem ;
     row-gap: 4.8rem;
    }
+   .grid--5-cols,
   .grid--2-cols,
   .grid--3-cols,
   .grid--3-coars
@@ -782,10 +819,3 @@ article{
 }
 }
 
-/* 
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
